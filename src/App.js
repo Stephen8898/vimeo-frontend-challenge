@@ -5,10 +5,7 @@ import './style/layout.css'
 
 class App extends Component {
   state = {
-    images:[
-
-    ],
-  
+    images: '',
     descriptions: [ 
     
     ]
@@ -25,7 +22,7 @@ prev = () => {
 
     return (
     <React.Fragment>
-      <Carousel/>
+      <Carousel images={this.state.images}/>
       <hr></hr>
       <Layout/>
   </React.Fragment>

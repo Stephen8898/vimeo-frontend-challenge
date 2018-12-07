@@ -1,5 +1,31 @@
 @media (width: 990){
     .col-6{
-        float: left;
+        
+    }
+}
+
+hr{
+    margin: 0px;
+}
+.container{
+    font-size: 13px;
+}
+
+.backgroundImg{
+position: absolute;
+top: 0;
+left:0;
+height: 43.5%;
+width: 100%;
+display: block;
+}
+@media only screen and (max-width: 768px){
+    .backgroundImg{
+     position: absolute;
+     top: 0;
+     left:0;
+     height: inherit;
+     width: 100%;
+     display: block;
     }
 }
