@@ -47,7 +47,7 @@ let states = this.setState({
                     <div className="col-4 text-center">
                       <img className="img-fluid" src={this.imgs[this.state.index]} alt="poster 1" height="350px" width="250px"/>
                    </div>
-                   <div className="col-5 align-middle" style={{color:'white'}}>
+                   <div className="col-6 align-middle" style={{color:'white'}}>
                       <h3>{this.title[this.state.index]}</h3>
                       <p >Isn't that fantastic? You can just push a little tree out of your brush like that. 
                          You don't have to spend all your time thinking about what you're doing, you just 
@@ -56,8 +56,8 @@ let states = this.setState({
                     </div>
                 </div>
                 <div className="row justify-content-around"> 
-                  <div className="col-4 text-right">
-                    <button className="btn btn-primary" type="button" >Buy Now</button>
+                  <div className="col-5 text-right" >
+                    <button className="btn btn-primary" type="button"  >Buy Now</button>
                     <button className="btn btn-outline-dark" type="button" style={{marginLeft:'.5rem', color:'white'}}>Watch Trailer</button>
                   </div>
                 </div>

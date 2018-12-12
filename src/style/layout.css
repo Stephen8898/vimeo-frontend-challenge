@@ -19,13 +19,24 @@ height: 43.5%;
 width: 100%;
 display: block;
 }
-@media only screen and (max-width: 200px){
+@media only screen and (max-width: 1133px){
     .backgroundImg{
-     position: absolute;
+     /* position: absolute;
      top: 0;
      left:0;
      height: inherit;
      width: 100%;
-     display: block;
+     display: block; */
+     background-repeat:no-repeat;
+     background-size: contain;
+     height: 275px;
+     margin-bottom: 1%;
+     filter:blur(8px)
+    }
+}
+
+@media only screen and (max-width: 1203px){
+    .col-5 {
+        display: none
     }
 }
